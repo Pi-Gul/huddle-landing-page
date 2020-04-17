@@ -16,7 +16,6 @@ html {
 
 img {
     max-width: 100%;
-    margin-bottom: 60px;
 }
 
 h1, p {
@@ -24,26 +23,35 @@ h1, p {
     text-align: center;
 }
 
+h1, h2 {
+    font-family: "Poppins", sans-serif;
+}
+
 /* HEADER */ 
 header {
     width: 100%;
     padding: 10%;
+    margin-bottom: 30px;
 }
 
 img.logo {
     width: 50%;
+    margin-bottom: 60px;
 }
 
 /* MAIN */
 h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
     line-height: 1.4;
+    padding: 0% 8%;
 }
 
 p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.3;
+    padding: 0% 8%;
+    font-family: "Open Sans", sans-serif;
 }
 
 button {
