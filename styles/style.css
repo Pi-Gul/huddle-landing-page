@@ -57,7 +57,7 @@ main p {
 button {
     display: block;
     width: 65%;
-    margin: 20px auto;
+    margin: 40px auto 80px auto;
     background-color: white;
     border: 0px;
     border-radius: 20px;
@@ -68,22 +68,26 @@ button {
 /* FOOTER */
 .soc-media {
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 .soc-media img {
-    width: 10%;
+    width: 8%;
+    padding: 2%;
     margin-left: 10px;
+    border: 1px black solid;
+    border-radius: 100%;
+    filter: invert(100%);
 }
-
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    margin: 20px auto;
 }
-
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 85%, 24%); 
 }
 
+/* DESKTOP */
 @media only screen and (min-width: 800px) {
     html {
         background-image: url("../images/bg-desktop.svg");
@@ -128,9 +132,10 @@ button {
         grid-row: 2 / span 1;
         grid-column: 2 / span 1; 
         justify-self: end;
-        width: 70%;
+
     }
     .soc-media img {
-        width: 15%;
+        width: 50px;
+        padding: 5%;
     }
 }
